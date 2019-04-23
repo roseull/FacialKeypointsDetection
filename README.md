@@ -23,21 +23,16 @@ The formula for calculating the output size(height or length) for any given conv
 where O is the output height/length, W is the input height/length, K is the filter size, P is the padding, and S is the stride.<br /><br />
 
 #### The detailed design in CNN model:<br />
-![Alt text]( CNN_model.jpg?raw=true "")<br />
+![Alt text]( CNN_model.JPG?raw=true "")<br />
 
 
 ### --- Optimizer ---<br />
-Stochastic Gradient Descent (SGD) and its variants are probably the most used optimization algorithms for machine learning in general and for deep learning in particular.<br />
-![Alt text]( sgd.jpg?raw=true "")<br />
 Adam is a method for efficient stochastic optimization that only requires first-order gradients with little memory requirement. Adam Optimizer is used in this project.
 
 ### --- Evaluation ---<br />
 Submissions are scored by Kaggle on the Root Mean Squared Error(RMSE):<br />
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=RMSE=\sqrt{\frac{1}{n}\sum_{i=1}^{n}{(y_i-\hat{y}_i)}^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?RMSE=\sqrt{\frac{1}{n}\sum_{i=1}^{n}{(y_i-\hat{y}_i)}^2}" title="RMSE=\sqrt{\frac{1}{n}\sum_{i=1}^{n}{(y_i-\hat{y}_i)}^2}" /></a>
-
-### --- Future work ---<br />
-Feature engineering is needed in the next step.
 
 ### --- Result visualization ---<br />
 Find 15 keypoints in the dataset represent the different elements of the face. Left and right here refers to the point of view of the subject.
