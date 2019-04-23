@@ -41,4 +41,4 @@ Feature engineering is needed in the next step.
 
 ### --- Result visualization ---<br />
 Find 15 keypoints in the dataset represent the different elements of the face. Left and right here refers to the point of view of the subject.
-![Alt text]( result_visualization.jpg?raw=true "")<br />
+![Alt text]( result_visualization.JPG?raw=true "")<br />
