@@ -1,7 +1,7 @@
 # Facial Keypoints Detection
 Find the key points on the human face
 ### --- Objective ---<br />
-The objective of this task is using Convolutional Neural Network(CNN) to predict keypoint positions on face images.
+The objective of this task is using Convolutional Neural Network (CNN) to predict keypoint positions on face images.
 
 ### --- Data description ---<br />
 The data is from Kaggle, which contains a set of face images. The input image consists of a list of 96x96 pixels. 
