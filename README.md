@@ -23,7 +23,7 @@ The formula for calculating the output size(height or length) for any given conv
 where O is the output height/length, W is the input height/length, K is the filter size, P is the padding, and S is the stride.<br /><br />
 
 #### The detailed design in CNN model:<br />
-![Alt text]( cnn_model.jpg?raw=true "")<br />
+![Alt text]( CNN_model.jpg?raw=true "")<br />
 
 
 ### --- Optimizer ---<br />
